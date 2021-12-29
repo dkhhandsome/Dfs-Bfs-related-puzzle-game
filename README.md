@@ -19,13 +19,7 @@ This puzzle consists of an algebraic equation containing one or more variables, 
 ## The search algorithms
 
 Depth-first search and breadth-first search are two approaches to searching through the space of possibilities for a solution.
-
-
-**dfs
-
 With depth-first search, we search deeply before we search broadly.  We exhaustively search the first subtree before considering any other subtree.  And we use the same strategy when we search that subtree: exhaustively searching its first subtree before considering any other subtree.  And so on - think recursively!
-
-**bfs
 
 With breadth-first search, we search broadly before we search deeply. We consider all puzzle states at depth 1, then all puzzle states at depth 2, and so on until we have searched all puzzle states in our tree.  (You will find a queue is helpful for keeping track of puzzles states to be checked when their turn comes.) Because we consider states that are “closer” to the starting state before those that are “farther”, we are guaranteed to find the shortest path to a puzzle’s solution.
 
